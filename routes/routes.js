@@ -1,6 +1,6 @@
-const routes = require('./routes/routes');
+// const routes = require('./routes/routes');
 
-app.use('/api', routes);
+// app.use('/api', routes);
 
 const express = require('express');
 
