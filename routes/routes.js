@@ -19,9 +19,9 @@ router.get('/get-employee/:ID', (req, res) => {
 })
 // Patch is used for replacing a partial part of the resource. Put replaces the whole resource.
 router.put('/update-employee/:ID', (req, res) => {
-  res.send('Update employee with ID.....');      
+  res.send(req.params.ID);      
 })
 
 router.delete('/delete-employee/:ID', (req, res) => {
-    res.send('Delete employee with ID....');
+    res.send(req.params.ID);
 })
